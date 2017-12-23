@@ -28,4 +28,5 @@ const innerText = jsx => {
   return text;
 };
 
-export default innerText;
+Object.defineProperty(exports, '__esModule', { value: true });
+exports.default = innerText;
