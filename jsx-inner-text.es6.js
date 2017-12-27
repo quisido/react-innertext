@@ -1,6 +1,6 @@
 'use strict';
 
-var innerText = function(jsx) {
+const innerText = jsx => {
   if (jsx === null) {
     return '';
   }
@@ -10,14 +10,14 @@ var innerText = function(jsx) {
   if (typeof jsx === 'string') {
     return jsx;
   }
-  var text = '';
+  let text = '';
   if (
     jsx.props &&
     jsx.props.children
   ) {
     if (Array.isArray(jsx.props.children)) {
-      var childrenLength = jsx.props.children.length;
-      for (var x = 0; x < childrenLength; ++x) {
+      const childrenLength = jsx.props.children.length;
+      for (let x = 0; x < childrenLength; ++x) {
         text += innerText(jsx.props.children[x]);
       }
     }
