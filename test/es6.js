@@ -1,5 +1,5 @@
 import React from 'react';
-import innerText from '../jsx-inner-text';
+import innerText from '../react-innertext';
 
 const examples = [
 	['1990', 1990],
