@@ -1,11 +1,11 @@
 {
-  "author": "Charles Stover (https://www.charlesstover.com/)",
+  "author": "Charles Stover (https://charlesstover.com/)",
   "description": "Returns the innerText of a React JSX object.",
-  "homepage": "https://github.com/CharlesStover/jsx-inner-text/",
-  "name": "jsx-inner-text",
+  "homepage": "https://github.com/CharlesStover/react-innertext/",
+  "name": "react-innertext",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CharlesStover/jsx-inner-text.git"
+    "url": "git+https://github.com/CharlesStover/react-innertext.git"
   },
   "keywords": [
     "innerText",
@@ -16,10 +16,10 @@
     "reactjs"
   ],
   "license": "MIT",
-  "main": "jsx-inner-text",
+  "main": "react-innertext",
   "version": "1.0.3",
   "bugs": {
-    "url": "https://github.com/CharlesStover/jsx-inner-text/issues"
+    "url": "https://github.com/CharlesStover/react-innertext/issues"
   },
   "scripts": {
     "test": "cd test && node es5.js"
