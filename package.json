@@ -1,12 +1,18 @@
 {
-  "author": "Charles Stover (https://charlesstover.com/)",
-  "description": "Returns the innerText of a React JSX object.",
-  "homepage": "https://github.com/CharlesStover/react-innertext/",
   "name": "react-innertext",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CharlesStover/react-innertext.git"
+  "version": "1.1.2",
+  "author": "Charles Stover (https://charlesstover.com/)",
+  "bugs": {
+    "url": "https://github.com/CharlesStover/react-innertext/issues"
   },
+  "description": "Returns the innerText of a React JSX object.",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0"
+  },
+  "homepage": "https://github.com/CharlesStover/react-innertext/",
   "keywords": [
     "innerText",
     "javascript",
@@ -17,17 +23,18 @@
   ],
   "license": "MIT",
   "main": "react-innertext",
-  "version": "1.1.2",
-  "bugs": {
-    "url": "https://github.com/CharlesStover/react-innertext/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesStover/react-innertext.git"
   },
   "scripts": {
     "test": "node ./tests/es5.js"
   },
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "react": "^16.2.0"
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.54",
+    "@babel/preset-env": "^7.0.0-beta.54",
+    "babel-loader": "^8.0.0-beta.4",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
   }
 }

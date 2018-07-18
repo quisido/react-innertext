@@ -5,3 +5,4 @@
 .npmignore
 .travis.yml
 react-innertext.es6
+webpack.config.js
