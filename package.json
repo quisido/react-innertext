@@ -17,12 +17,12 @@
   ],
   "license": "MIT",
   "main": "react-innertext",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "bugs": {
     "url": "https://github.com/CharlesStover/react-innertext/issues"
   },
   "scripts": {
-    "test": "cd test && node es5.js"
+    "test": "node ./tests/es5.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

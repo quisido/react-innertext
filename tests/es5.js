@@ -3,7 +3,7 @@ eval(
 	.transformFileSync(
 		'es6.js',
 		{
-			presets: ['es2015', 'react']
+			presets: [ 'es2015', 'react' ]
 		}
 	)
 	.code

@@ -2,11 +2,11 @@ import React from 'react';
 import innerText from '../react-innertext';
 
 const examples = [
-	['1990', 1990],
-	['Collection of elements', <p><b>Collection</b> <i>of</i> <u>elements</u></p>],
-	['div', <div>div</div>],
-	['Hello world!', <span>Hello <strong>world</strong>!</span>],
-	['string', 'string']
+	[ '1990', 1990 ],
+	[ 'Collection of elements', <p><b>Collection</b> <i>of</i> <u>elements</u></p> ],
+	[ 'div', <div>div</div> ],
+	[ 'Hello world!', <span>Hello <strong>world</strong>!</span> ],
+	[ 'string', 'string' ]
 ];
 
 let error = false;

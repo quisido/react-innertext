@@ -1,1 +1,7 @@
-test
+/.vscode
+/node_modules
+/tests
+.gitignore
+.npmignore
+.travis.yml
+react-innertext.es6
