@@ -1,5 +1,3 @@
-'use strict';
-
 const innerText = jsx => {
 
   // Non-existent children.

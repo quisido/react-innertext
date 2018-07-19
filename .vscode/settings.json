@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    ".vscode": true,
+    "node_modules": true,
+    "react-innertext.js": true
+  }
+}

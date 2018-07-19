@@ -1,0 +1,17 @@
+language: node_js
+node_js: 8.9.1
+branches:
+  only: master
+cache: yarn
+install: yarn
+script:
+  - yarn build
+  - yarn test
+deploy:
+  api_key:
+    secure: ks9GXvcORoaioKOayjZvs2mm/kuyZCQ7z0gzfsGCZckHxwNxLFw9H0uukDb55f7O9kMRDM78S8z82zNwUrQp1po5McF7c8S/oELpt0vZDfV/hXYTTaRjPL7A0uIVfbxZ6uCmDJb+JAayvsvDzgrwunS3fKWaMHlkWPGsIVqV+VNlUHnlkhswXQkS7wm2Z/XqKN2lba/WQo3BG6dg34wx0zJBo1V3QZ3XyeEtwiulb1UzIgZtkuy9Jl3+55CawVHCG9vuQDmP4zTzO/7JSSWB7M8NLfXh3Z4QHaDK3PM+33YTkaAJAR+f5lRnMGTn/0Ef95UBuxX3x2MZhYjaLtNucOobMPpVkBO7NWqI9WUwrs9A5BfJs7/iPo4uZMPsbbWNZrKdUjKpiPufavFk4WbqblXh4oacBNJE82EctlcETavLilai+QWNDqsuoIsG01AmIK1nwOPQfeE3eWz8qUmSDPACyol05C5uX4QUXkd2APyHQR1LvFak7Hki7ivrhbR1PCbRhGrrijIihjBmtwRUaLibO07iUL8mj9E+C8cKQnLhWGqJYZzlQM5XMk9FuZuVaRLWxZpaF279LMOlUjBaMh14ChZ47xpEzycyUPA9d2B9Qdo/ogEvG8HA8Ns5IcdH/gKFmiiSHihdKKQfhpqeWJxZ/nlMzAO3VT9yK+1PLWA=
+  email: npmjs@charlesstover.com
+  on:
+    branch: master
+  provider: npm
+  skip_cleanup: true
