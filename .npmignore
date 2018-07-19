@@ -1,8 +1,8 @@
 /.vscode
 /node_modules
+/src
 /tests
-.gitignore
-.npmignore
-.travis.yml
-react-innertext.es6
-webpack.config.js
+/.gitignore
+/.npmignore
+/.travis.yml
+/webpack.config.js
