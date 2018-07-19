@@ -37,6 +37,7 @@
   },
   "scripts": {
     "build": "webpack",
+    "prepublishOnly": "yarn build",
     "test": "mocha --require @babel/register tests/react-innertext.js"
   }
 }
