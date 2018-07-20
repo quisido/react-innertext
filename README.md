@@ -38,3 +38,33 @@ innerText(
   </div>
 ) // 'Hello world! I am 3 years old!'
 ```
+
+### Real World Example
+In the below example, the `title` attribute of the `<th>` element sanitizes the `children` prop. This allows the children to contain HTML or other React elements, while providing a safe, plain text string for the `title`.
+```JS
+class MyTableHeaderCell extends React.PureComponent {
+  render() {
+    return (
+      <th
+        children={this.props.children}
+        title={innerText(this.props.children)}
+      />
+    );
+  }
+}
+
+class MyTableHeader extends React.PureComponent {
+  render() {
+    return (
+      <thead>
+        <tr>
+          <MyTableHeaderCell>
+            <b>Username</b>
+            <SortButton />
+          </MyTableHeader>
+        </tr>
+      </thead>
+    );
+  }
+}
+```
