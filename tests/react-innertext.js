@@ -9,12 +9,12 @@ describe('react-innertext', () => {
 	it('should be blank for null', () => {
 		expect(innerText(null)).to.equal('');
 	});
-	
+
 	it('should be blank for boolean', () => {
 		expect(innerText(true)).to.equal('');
 		expect(innerText(false)).to.equal('');
 	});
-	
+
 	it('should convert numbers to strings', () => {
 		expect(innerText(123)).to.equal('123');
 		expect(innerText(420.69)).to.equal('420.69');
@@ -34,7 +34,7 @@ describe('react-innertext', () => {
 			123,
 			true,
 			<p>1</p>,
-			'test',
+			[ 'te', 'st' ],
 			420.69,
 			<div><span>2</span><span>three</span><p>4</p></div>
 		])).to.equal('1231test420.692three4');
