@@ -23,9 +23,9 @@ const innerText = require('react-innertext');
 innerText(
   <div>
     Hello <strong>world</strong>!
-    I'm <span children={3} /> years old!
+    I am <span children={3} /> years old!
   </div>
-) // 'Hello world! I'm 3 years old!'
+) // 'Hello world! I am 3 years old!'
 ```
 
 ### ES6
@@ -34,7 +34,7 @@ import innerText from 'react-innertext';
 innerText(
   <div>
     Hello <strong>world</strong>!
-    I'm <span children={3} /> years old!
+    I am <span children={3} /> years old!
   </div>
-) // 'Hello world! I'm 3 years old!'
+) // 'Hello world! I am 3 years old!'
 ```
