@@ -1,11 +1,11 @@
 # react-innertext
 Returns the innerText of a React JSX object, similar to the innerText property of DOM elements.
 
-![package](https://img.shields.io/github/package-json/v/CharlesStover/react-innertext.svg)
-![build](https://travis-ci.com/CharlesStover/react-innertext.svg)
-![downloads](https://img.shields.io/npm/dt/react-innertext.svg)
-![minified size](https://img.shields.io/bundlephobia/min/react-innertext.svg)
-![minzipped size](https://img.shields.io/bundlephobia/minzip/react-innertext.svg)
+[![package](https://img.shields.io/github/package-json/v/CharlesStover/react-innertext.svg)](https://github.com/CharlesStover/react-innertext/)
+[![build](https://travis-ci.com/CharlesStover/react-innertext.svg)](https://travis-ci.com/CharlesStover/react-innertext/)
+[![downloads](https://img.shields.io/npm/dt/react-innertext.svg)](https://www.npmjs.com/package/react-innertext)
+[![minified size](https://img.shields.io/bundlephobia/min/react-innertext.svg)](https://www.npmjs.com/package/react-innertext)
+[![minzipped size](https://img.shields.io/bundlephobia/minzip/react-innertext.svg)](https://www.npmjs.com/package/react-innertext)
 
 ## Install
 * `npm install react-innertext --save` or
