@@ -1,11 +1,38 @@
 {
   "name": "react-innertext",
-  "version": "1.1.2",
-  "author": "Charles Stover (https://charlesstover.com/)",
+  "version": "1.1.3",
+  "author": "Charles Stover (react-innertext@charlesstover.com)",
   "bugs": {
+    "email" : "react-innertext@charlesstover.com",
     "url": "https://github.com/CharlesStover/react-innertext/issues"
   },
   "description": "Returns the innerText of a React JSX object.",
+  "directories": {
+    "lib": "src",
+    "test": "tests"
+  },
+  "files": [
+    "react-innertext.js",
+    "package.json"
+  ],
+  "homepage": "https://github.com/CharlesStover/react-innertext#readme",
+  "keywords": [
+    "innerText",
+    "javascript",
+    "js",
+    "jsx",
+    "react",
+    "reactjs"
+  ],
+  "license": "MIT",
+  "main": "react-innertext.js",
+  "repository": "github:CharlesStover/react-innertext",
+  "scripts": {
+    "build": "webpack",
+    "prepublishOnly": "webpack",
+    "test": "mocha --require @babel/register tests/react-innertext.js"
+  },
+  "dependencies": { },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.54",
     "@babel/preset-env": "^7.0.0-beta.54",
@@ -19,25 +46,5 @@
     "react": "^16.0.0",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.1.0"
-  },
-  "homepage": "https://github.com/CharlesStover/react-innertext/",
-  "keywords": [
-    "innerText",
-    "javascript",
-    "js",
-    "jsx",
-    "react",
-    "reactjs"
-  ],
-  "license": "MIT",
-  "main": "react-innertext.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CharlesStover/react-innertext.git"
-  },
-  "scripts": {
-    "build": "webpack",
-    "prepublishOnly": "yarn build",
-    "test": "mocha --require @babel/register tests/react-innertext.js"
   }
 }
