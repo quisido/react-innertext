@@ -18,6 +18,7 @@ module.exports = {
     library: 'react-innertext',
     libraryTarget: 'umd',
     path: path.resolve(__dirname, '.'),
-    umdNamedDefine: true
+    umdNamedDefine: true,
+    globalObject: 'this' // more details here: https://github.com/webpack/webpack/issues/6522
   }
 };
