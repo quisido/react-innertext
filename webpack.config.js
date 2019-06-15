@@ -18,6 +18,11 @@ module.exports = {
     library: 'react-innertext',
     libraryTarget: 'umd',
     path: path.resolve(__dirname, '.'),
-    umdNamedDefine: true
+    umdNamedDefine: true,
+
+    // bug report: https://github.com/webpack/webpack/issues/6522
+    // more details: https://github.com/webpack/webpack/issues/6525
+    // get solution from this comment: https://github.com/webpack/webpack/issues/6525#issuecomment-491268897
+    globalObject: '(typeof self !== "undefined" ? self : this)'
   }
 };
