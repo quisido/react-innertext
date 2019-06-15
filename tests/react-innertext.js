@@ -1,10 +1,12 @@
-import { expect } from 'chai';
-import jsdom from 'jsdom-global';
 import React from 'react';
-jsdom();
-const innerText = require('../react-innertext');
+import { isBrowser } from 'browser-or-node';
+import { expect } from 'chai';
 
-describe('react-innertext', () => {
+import innerText from '../react-innertext';
+
+const env = isBrowser ? 'browser' : 'node';
+
+describe(`react-innertext (${env})`, () => {
 
 	it('should be blank for null', () => {
 		expect(innerText(null)).to.equal('');
