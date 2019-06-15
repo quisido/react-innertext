@@ -5,8 +5,8 @@ branches:
 cache: yarn
 install: yarn
 script:
-  - yarn build
-  - yarn test
+- yarn build
+- yarn test
 deploy:
   api_key:
     secure: jeFiOHO/riclr/AI176k9n1n5qdpQPziT9btKvo6neEIFR0h9Y77qgu+fVg+RRpTkgrCbfNmFa4jKax6+GLQlvXNWaftYJRipzXkFCd39LQlYsbPm0BOxKZSTam8AMMOmmHePnbzaLx5umt1Wvpi6fm/+pvhncwY7VhNLpixnAx7NIOdFWBYh3wSYQM5B92zZFxrpmUPKRcmS6bT0jKWiqTSDPVbe4e8BeoOQ/Om0Q5rfVaBZJs+C/pzQJar6FlNDKtQpjXcT7vyYvBC1G7u+G5uKEAsV6OVfKCO1vgxRx1VC7Nah/EDcIQjmvjPSFbtWpuxqY3puRVaACKEJGOeBfchhr0GSt/3Fpwrl5kw+UsRDUna1nzorydxPb3tuogH8jN8UsN7vloJ1Nmq5RESc932mNRRK7rWclZvPMa8e8Rp/6lNI7dfgh6izKWk8UJhL5con0v+xgw3uDR4VuP9S++M7scudNU9i2+TVxue0y+MTykYnooxmz1RL6XMg1h86D8X8cR02cckYVNC4Jo5a/e28l9pHd6ApScEws9Is3dsoML9SesHpyL1+fXpzyB5UTqLRj1vKKqmLvJPWpuXRyRZ9e8PlwWVo3IHIk86fZel3F/AsLdri/o6Igbv2kAszzLgyR1Ky959E1eNqTaiJ198gzmZ+lqSUh+O8WRTUfI=

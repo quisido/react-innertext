@@ -1,8 +1,12 @@
+/.git
 /.vscode
 /node_modules
 /src
 /tests
+/.babelrc
 /.gitignore
 /.npmignore
 /.travis.yml
+/package-lock.json
 /webpack.config.js
+/yarn.lock
