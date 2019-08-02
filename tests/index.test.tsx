@@ -1,6 +1,6 @@
 import * as React from "react";
 import { expect } from "chai";
-import innerText from "../src/index";
+import innerText from "../index";
 
 interface HasWindow extends NodeJS.Global {
   window: Window;
