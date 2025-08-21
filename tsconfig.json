@@ -5,6 +5,7 @@
     "downlevelIteration": true,
     "esModuleInterop": false,
     "experimentalDecorators": false,
+    "forceConsistentCasingInFileNames": true,
     "jsx": "react",
     "lib": [
       "es2015"
@@ -13,6 +14,7 @@
     "outDir": "./",
     "removeComments": true,
     "resolveJsonModule": true,
+    "strict": true,
     "strictBindCallApply": true,
     "target": "es5"
   },

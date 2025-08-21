@@ -1,16 +1,16 @@
 {
   "name": "react-innertext",
-  "version": "1.1.5",
-  "author": "Charles Stover (react-innertext@charlesstover.com)",
-  "description": "Returns the innerText of a React JSX object.",
-  "homepage": "https://github.com/CharlesStover/react-innertext#readme",
+  "version": "1.1.6",
+  "author": "quisi.do (react-innertext@quisi.do)",
+  "description": "returns the innerText of JSX",
+  "homepage": "https://github.com/quisi.do/react-innertext#readme",
   "license": "MIT",
   "main": "index.js",
-  "repository": "github:CharlesStover/react-innertext",
+  "repository": "github:quisi.do/react-innertext",
   "types": "index.d.ts",
   "bugs": {
-    "email": "react-innertext@charlesstover.com",
-    "url": "https://github.com/CharlesStover/react-innertext/issues"
+    "email": "react-innertext@quisi.do",
+    "url": "https://github.com/quisi.do/react-innertext/issues"
   },
   "directories": {
     "lib": "src",
